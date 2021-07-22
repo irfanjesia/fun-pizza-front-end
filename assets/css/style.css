@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: justify;
+    background-color: #f5f5f5;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: #2a3439;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #2a3439;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #2a3439;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    margin-top: -8px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+table {
+    width: 100%;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.card2 {
+    background-color: white;
+    padding: 1px 20px 20px 20px;
+    margin: 20px 20px 20px 0px;
+    border-radius: 5px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+main {
+    overflow: auto;
+}
+
+header {
+    display: inline;
+}
+
+.home {
+    background-image: url("pizza2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 522px;
+    margin-bottom: 20px;
+}
+
+.home-content {
+    color: white;
+    text-align: left;
+    margin: 80px;
+    float: left;
+}
+
+.home-content p {
+    width: 60%;
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button a:link, a:visited {
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button2 a:link, a:visited {
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    padding: 12px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button a:hover, a:active {
+    background-color: red;
+}
+
+.button2 a:hover, a:active {
+    background-color: red;
+}
+
+.button3 a:hover, a:active {
+    background-color: #2a3439;
+}
+
+.map-link {
+    cursor: pointer;
+    color: red;
+}
+
+.desc {
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.desc img {
+    float: left;
+    width: 100%;
+    height: 263px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.box {
+    width: 44%;
+}
+
+.box2 {
+    width: 56%;
+}
+
+.box2 p {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.slides-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 105px;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.next:active, .prev:active {
+    background-color: red;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-bottom: -230px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.parag {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-bottom: -270px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.prev:hover, .next:hover {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+    .card2 {
+        background-color: white;
+        padding: 1px 20px 20px 20px;
+        margin: 0px 20px 20px 20px;
+    }
+    .home {
+        background-image: url("pizza.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 522px;
+        margin-bottom: 20px;
+    }
+    .home-content {
+        margin: 80px 40px 40px 40px;
+    }
+    .home-content p {
+        width: 100%;
+    }
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .box {
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+    }
+    .box2 p {
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .desc img {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .button2 a:link, a:visited {
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-top: 5px;
+        border-radius: 5px;
+        background-color: #f44336;
+        color: white;
+        padding: 12px 23px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav a {
+        font-size: 13px;
+    }
+    .nav-logo {
+        width: 35px;
+        height: 35px;
+    }
+    .parag {
+        color: #f2f2f2;
+        font-size: 11px;
+        padding: 8px 12px;
+        position: absolute;
+        margin-bottom: -270px;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+}
