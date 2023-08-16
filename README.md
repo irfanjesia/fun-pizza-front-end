@@ -1,5 +1,5 @@
 # 📃 Description
-This project is my submission for Dicoding Basic Web Programming Course. I use media queries to customize layouts on various device screen sizes and also use javascript to add slider for the menu.
+This project is my submission for Dicoding Web Programming Basics Course. I use media queries to customize layouts on various device screen sizes and also use javascript to add slider for the menu.
 
 Here are the criterias:
 - There are `<header>`, `<footer>`, `<main>`, `<article>`, and `<aside>` elements in the HTML file.
